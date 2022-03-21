@@ -1,0 +1,228 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Tablas en html</title>
+	<link rel="stylesheet" href="../css/style_page.css" type="text/css">
+	<style type="text/css">
+		table,th,td{
+			border: 3px solid #5B0506;
+			border-collapse: collapse;
+			
+		}
+		th,td{
+			padding: 20px;
+			text-align: center;
+/*			background-color: aqua;*/
+		}
+		h2{
+			font-size: 40px;
+		}
+		tr:hover{
+			background-color: magenta;
+		}
+		#style_tabla_1,#style_tabla_1 th,#style_tabla_1 td{
+			border: 3px solid #983406;
+			border-collapse: separate;
+/*			background-color: lightgreen;*/
+		}
+		#style_tabla_1{
+			width: 700px;
+			height: 300px;
+		}
+		#style_tabla_1 th{
+			background-color: greenyellow;
+		}
+		#style_tabla_1{
+			text-align: center;
+		}
+		/*#style_tabla_1 th{
+			border: 3px solid #983406;
+		}
+		#style_tabla_1 td{
+			border: 3px solid #983406;
+		}*/
+		#style_tabla_2 th, #style_tabla_2 td{
+			border: 3px solid #B1A004;
+		}
+		#style_tabla_2 tr:nth-child(even){
+			background-color: black;
+			color: yellow;
+		}
+		#style_tabla_2 tr:nth-child(odd){
+			background-color: darkblue;
+			color: aliceblue;
+		}
+		#style_tabla_2 th{
+			background-color: darkred;
+			color: aqua;
+		}
+		#encabezado_verde{
+			color: darkgreen;
+		}
+		.encabezado_par{
+			color: darkblue;
+		}
+		.encabezado_impar{
+			color: crimson;
+		}
+	</style>
+</head>
+
+<body>
+<header>
+  <h1>TABLA EN HTML </h1>
+</header>
+<nav>
+	<ul>
+			<li><a href="index.html">Index&nbsp;</a></li>
+			<li><a href="estilos.html">Estilos&nbsp;</a></li>
+			<li><a href="listas.html">Listas</a></li>
+			<li><a href="imagenes.html">Imágenes&nbsp;</a></li>
+			<li><a href="audio.html">Audio&nbsp;</a></li>
+			<li><a href="video.html">Video&nbsp;</a></li>
+			<li><a href="formularios.html">Formularios&nbsp;</a></li>
+ 		</ul>
+</nav>
+<main>
+  <section>
+    <h2 class="encabezado_impar">Tabla simple</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus voluptatem autem atque, aliquam necessitatibus, dolorem iusto obcaecati. Exercitationem iste, voluptate reiciendis nobis dicta doloribus, accusantium asperiores ipsam dolor explicabo numquam.</p>
+	<table>
+	 	<head>
+			<tr>
+				<th>Apellido Paterno</th>
+				<th>Apellido Materno</th>
+				<th>Nombre</th>
+				<th>Edad</th>
+				<th>Celular</th>
+				<th>Email</th>
+			</tr>	
+		</head> 
+		<tbody>
+			<tr>
+				<th>Hernandez</th>
+				<th>Garcia</th>
+				<th>Juan</th>
+				<th>18</th>
+				<th>2431084585</th>
+				<th>juan.hern@gmail.com</th>
+			</tr>
+			<tr>
+				<th>Ramirez</th>
+				<th>Cañete</th>
+				<th>Xochitl</th>
+				<th>20</th>
+				<th>2431201423</th>
+				<th>xoch.0706@gmail.com</th>
+			</tr>
+		</tbody>
+		<tfoot>
+		
+		</tfoot>
+	 </table>
+  </section>
+  <section>
+    <h2 class="encabezado_par">Tabla modificada a traves de una regla de identificador en css</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod voluptatum repellat, corporis nostrum necessitatibus, hic fugit tempora iusto itaque iste, quo, amet. Eveniet magnam vel sint incidunt quidem in, veniam.</p>
+    <table id="style_tabla_1">
+      <tbody>
+        <tr>
+          <th scope="col">Nombre</th>
+          <th scope="col">Dirección</th>
+          <th scope="col">Teléfono</th>
+          <th scope="col">Celular</th>
+        </tr>
+        <tr>
+          <td>Luz</td>
+          <td>Camino Real #15</td>
+          <td><p>222</p>
+          <p>4360203</p></td>
+          <td>2211267296</td>
+        </tr>
+        <tr>
+          <td>Jose</td>
+          <td>Calle Gardenias #68</td>
+          <td><p>222</p>
+          <p>4362025</p></td>
+          <td>2431025668</td>
+        </tr>
+        <tr>
+          <td>Angel</td>
+          <td>Calle Hidalgo #2</td>
+          <td><p>222</p>
+          <p>4361224</p></td>
+          <td>2431204484</td>
+        </tr>
+        <tr>
+          <td>Luis</td>
+          <td>Calle Morels #32</td>
+          <td><p>222</p>
+          <p>4361020</p></td>
+          <td>2431322014</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2 id="encabezado_verde" class="encabezado_impar">Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque commodi sequi, at cupiditate minus aliquam, voluptatibus voluptates amet a. Et.</p>
+    <table id="style_tabla_2">
+	  <head>
+		 <tr>
+          <th scope="col">Marca</th>
+          <th scope="col">Modelo</th>
+          <th scope="col">Color</th>
+        </tr>
+	  </head>
+      <tbody>
+        <tr>
+          <td>Seat</td>
+          <td>Ibiza</td>
+          <td>Negro</td>
+        </tr>
+        <tr>
+          <td>VW</td>
+          <td>Bora</td>
+          <td>Rojo</td>
+        </tr>
+        <tr>
+          <td>Renault</td>
+          <td>X</td>
+          <td>Azul</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <section>
+    <h2 class="encabezado_par">Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Este es el contenido de la etiqueta P de diseño</p>
+    Colocar aquí el contenido de la nueva etiqueta section
+    <table width="400" border="3">
+      <tbody>
+        <tr>
+          <th scope="col">Animal</th>
+          <th scope="col">Lugar de origen</th>
+          <th scope="col">Característica</th>
+          <th scope="col">Color</th>
+        </tr>
+        <tr>
+          <td>Cocodrilo</td>
+          <td>Selva</td>
+          <td>Tiene piel rasposa</td>
+          <td>Verde/ Gris</td>
+        </tr>
+        <tr>
+          <td>Anaconda</td>
+          <td>Amazonas</td>
+          <td>Tiene escamas</td>
+          <td>Verde con negro</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+</main>
+<footer><h6>Elaborado por Ana Luz Morales Méndez</h6></footer>
+	
+</body>
+</html>

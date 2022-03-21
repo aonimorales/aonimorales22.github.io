@@ -1,0 +1,129 @@
+@charset "utf-8";
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* CSS Document */
+
+header  {
+    background-color: #E555CE;
+    color: #3507A6;
+}
+nav {
+    background-color: #4ABECC;
+    color: #BF0931;
+}
+nav ul li {
+    width: 100px;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+}
+nav ul li a {
+    text-decoration: none;
+    list-style-type: none;
+}
+nav ul li a:link {
+    color: #941114;
+}
+nav ul li a:visited {
+    color: #D8FF00;
+}
+nav ul li a:hover {
+    color: #9304AC;
+}
+main {
+    background-color: #8DCAE4;
+}
+footer h6 {
+    color: #BC1F68;
+    text-align: center;
+    line-height: normal;
+    font-size: large;
+}
+footer {
+    width: 80%;
+    background-color: #1177F3;
+}
+
+header, nav, main  , footer{
+    margin: 0 auto;
+    padding: 20px;
+    width: 80%;
+}
+section {
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #F56FBE;
+    width: auto;
+}
+
+
+		table,th,td{
+			border: 3px solid #5B0506;
+			border-collapse: collapse;
+		}
+		th,td{
+    padding: 20px;
+    text-align: center;
+    background-color: #CF5E60;
+/*			background-color: aqua;*/
+		}
+		h2{
+    font-size: 40px;
+    text-align: center;
+		}
+		tr:hover{
+			background-color: magenta;
+		}
+		#style_tabla_1,#style_tabla_1 th,#style_tabla_1 td{
+    border: 3px solid #983406;
+    border-collapse: separate;
+    background-color: #FC3F0B;
+/*			background-color: lightgreen;*/
+		}
+		#style_tabla_1{
+			width: 700px;
+			height: 300px;
+		}
+		#style_tabla_1 th{
+			background-color: greenyellow;
+		}
+		#style_tabla_1{
+			text-align: center;
+		}
+		/*#style_tabla_1 th{
+			border: 3px solid #983406;
+		}
+		#style_tabla_1 td{
+			border: 3px solid #983406;
+		}*/
+		#style_tabla_2 th, #style_tabla_2 td{
+    border: 3px solid #B1A004;
+    width: auto;
+		}
+		#style_tabla_2 tr:nth-child(even){
+			background-color: black;
+			color: yellow;
+		}
+		#style_tabla_2 tr:nth-child(odd){
+			background-color: darkblue;
+			color: aliceblue;
+		}
+		#style_tabla_2 th{
+			background-color: darkred;
+			color: aqua;
+		}
+		#encabezado_verde{
+			color: darkgreen;
+		}
+		.encabezado_par{
+			color: darkblue;
+		}
+body header h1 {
+    text-align: center;
+}

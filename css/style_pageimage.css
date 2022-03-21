@@ -1,0 +1,174 @@
+@charset "utf-8";
+@import url("../webfonts/Lobster_Regular/stylesheet.css");
+@import url("https://fonts.googleapis.com/css2? family= Nanum+Pen+Script & display=swap");
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+header, nav, main, footer {
+    margin: 0  auto;
+    padding: 20px;
+    width: 80%;
+}
+header  {
+    background-color: #8F0505;
+    color: #FFF7F7;
+    width: 80%;
+    text-align: center;
+}
+nav   {
+    background-color: #07AAB1;
+}
+nav ul li {
+    width: 110px;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+}
+.video2 {
+    width: 60%;
+    padding: 10px;
+    height: auto;
+}
+
+nav ul li a {
+    list-style-type: none;
+    font-size: 18px;
+    text-decoration: none;
+}
+nav ul li a:link  {
+    color: #565454;
+}
+nav ul li a:visited {
+    color: #FC0004;
+}
+nav ul li a:hover {
+    color: #F14246;
+}
+main {
+    background-color: #30E1F7;
+    height: auto;
+}
+section {
+    padding: 30px;
+    margin: 25px;
+    background-color: #FC6767;
+}
+footer {
+    background-color: #0792AF;
+    color: #E0DEDE;
+}
+footer {
+    background-color: #059CA3;
+    color: #C40A0D;
+}
+footer h6 {
+    margin: 0 auto;
+    font-size: 14px;
+    text-align: center;
+    color: #FF0308;
+    width: auto;
+}
+header h1 {
+    margin: 0 auto;
+    width: 40%;
+}
+main section img {
+    border-left: 10px solid #C4E6F5;
+    border-right: 10px solid #C4E6F5;
+    border-bottom: 50px solid #C4E6F5;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 10px solid #C4E6F5;
+
+}
+.foto1 {
+    border: 10px dashed #94F1F5;
+}
+.foto2 {
+    width: 80%;
+    height: auto;
+    border: 15px dotted #6BCCFC;
+}
+.foto2 {
+}
+.foto3 {
+    width: 60%;
+    height: auto;
+    border: 15px double #50C9F4;
+}
+.foto3 {
+}
+.foto4 {
+    height: auto;
+    width: 40%;
+    border-width: thin;
+    border-style: none;
+    margin: 20px;
+    float: right;
+
+}
+.foto5 {
+    width: 40%;
+    height: auto;
+    margin: 20px;
+    border-width: thin;
+    float: left;
+}
+.foto6 {
+    width: 40%;
+    height: auto;
+    margin: 5px;
+    border: 10px solid #00CCF7;
+}
+
+
+
+.foto4 {
+}
+.foto5 {
+}
+.foto6 {
+}
+.blur {
+    filter: blur(5px);
+}
+.brightness {
+    filter: brightness(80%);
+}
+
+.blur {
+}
+.brightness {
+}
+.contrast {
+    filter: contrast(50%);
+}
+.contrast {
+}
+.video2 {
+}
+main section h2 {
+    font-family: chewy;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+}
+.fuente_google_local {
+    font-family: "Lobster Regular";
+    font-size: 35px;
+}
+.fuente_google_enlazada {
+	font-family: 'IM Fell English SC', serif;
+	font-size: 35px;
+}
+.parrafo {
+	font-family: "Nanum Pen Script", cursiva;
+	font-size: 18px;
+}.imagen_section {
+    width: 60%;
+    height: 60%;
+}
